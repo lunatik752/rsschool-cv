@@ -4,9 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
+      <h1>Maksim Bely</h1>
     
+  <div class="myPhoto">
+      <img src="myPhoto.png" alt="This is me">
+  </div>
+  
+      <h2>Contact info:</h2>
+      <p>+375(29)509-97-52<br>
+      whitemaxim752@gmail.com</p> 
+      <div class="block1" >
+        <p>
+         I want to acquire skills in the field of front-end development. Learn to put this knowledge into practice. At the moment, my objective is to successfully complete the Rolling-scopes-school course
+        </p>
+      </div>
+      <h2>Skills</h2>
+       <div class="block1" >
+            <p>
+                Basic knowledge: Windows, Android, Java, C#, JavaScript, HTML, HTML5, CSS, CSS3, Git, Github.
+            </p>
+        </div>
+        <h2>Code example:</h2>
+          <pre>
+              <code>
+                    &lt;body bgcolor="#FFFFFF" text="#0000FF"
+                    onload="window.setTimeout('getSecs()',1)"&gt;
+                
+                    &lt;script language="JavaScript"&gt;
+                startday = new Date();
+                clockStart = startday.getTime();
+                
+                function initStopwatch() {
+                    var myTime = new Date();
+                    var timeNow = myTime.getTime();
+                    var timeDiff = timeNow - clockStart;
+                    this.diffSecs = timeDiff/1000;
+                    return(this.diffSecs); }
+                
+                function getSecs() {
+                    var mySecs = initStopwatch();
+                    var mySecs1 = ""+mySecs;
+                    mySecs1= mySecs1.substring(0,mySecs1.indexOf(".")) + " secs.";
+                    document.forms[0].timespent.value = mySecs1
+                    window.setTimeout('getSecs()',1000); }
+                
+                    &lt;/script&gt;
+                
+                    &lt;form&gt;
+                    &lt;p align="center"&gt;&lt;strong&gt;
+                   Вы находитесь на этой странице уже:&lt;/strong&gt;&lt;/font&gt;
+                   &lt;input type="text" size="9" name="timespent"&gt;&lt;/p&gt;
+                   &lt;/form&gt;
+                
+                   &lt;br&gt;&lt;br&gt;&lt;br&gt;
+                
+                   &lt;p align="center"&gt;&lt;a href="clock1.php"&gt;&lt;font color="#000000"&gt;
+                &lt;strong&gt;Посмотрите еще один вариант.&lt;/&lt;strong&gt;&lt;/&lt;font&gt;&lt;/a&gt;&lt;/p&gt;
+                
+                &lt;form&gt;
+                &lt;p align="center"&gt;
+                &lt;input type="button" value="  HAMAH  " onclick="Home()"&gt;
+                &lt;script&gt;
+                    function Home()
+                    {location.href="/java/example.php";}
+                    &lt;/script&gt;&lt;/p&gt;
+                    &lt;/form&gt;
+              </code>
+          </pre>
+       <h2>Education</h2> 
+         <div class="block1" >
+            <p>
+              <ul>
+                 <li>BNTU - MECHANICAL ENGINEERING FACULTY (Automation of technological processes and production)</li>
+                 <li>BNTU - Enterprise economics and management</li>
+                 <li>self study</li>
+                   <ul>
+                      <li>Java (application SoloLearn, Herbert Schildt Java 8. The Complete Reference, 8th Edition)</li>
+                      <li> HTML, CSS (application SoloLearn, <a href=https://htmlacademy.ru/))>https://htmlacademy.ru/</a>)</li">
+                   </ul>
+
+                 </ul>
+            </p>
+         </div>
+        <h2>English</h2> 
+         <div class="block1" >
+            <p>Pre-Intermediate: Self-study with applications (Simpler, Duolingo)
+            </p>
 </body>
 </html>
