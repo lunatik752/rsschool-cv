@@ -1,1 +1,1 @@
-# rsschool-cv
+ [MyCV](https://lunatik752.github.io/rsschool-cv/cv)
