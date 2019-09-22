@@ -1,0 +1,57 @@
+body {
+    max-width: 1024px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+p, ul {
+    font-size: 20px;
+}
+
+.myPhoto {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+.block1 {
+
+    margin: 5px 20px;
+    text-align: left;
+    
+}
+
+pre,
+code {
+    width: 800px;
+    background-color: #fafaff;
+    border: 1px solid #1d1ddd;
+    color: #0b0b0c;
+    font-family: "Courier New", "Courier", monospace;
+    text-align: left;
+    margin: 0px 20px;
+}
+
+pre {
+    padding: 5px;
+}
+  
+code {
+    padding: 2px 5px;
+}
+  
+pre code {
+  background-color: transparent;
+  border-radius: none;
+  border: none;
+ }
